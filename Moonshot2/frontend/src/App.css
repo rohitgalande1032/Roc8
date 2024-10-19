@@ -1,0 +1,79 @@
+.dateSelector {
+
+ max-width: 200px;
+}
+
+.filters {
+  display: flex;
+  align-items:last baseline;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.buttons button {
+  padding: 10px;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+}
+
+
+.charts {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto
+}
+
+.line {
+  min-width: 500px;
+  min-height: 500px;
+}
+.bar {
+  min-width: 500px;
+  min-height: 500px;
+}
+
+
+@media (max-width: 768px) {
+  /* Styles for tablets and smaller screens */
+  .charts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto
+  }
+  .line {
+    min-width: 400px;
+    min-height: 400px;
+  }
+  .bar {
+    min-width: 400px;
+    min-height: 400px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Styles for mobile screens */
+  .charts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: auto
+  }
+  .line {
+    min-width: 300px;
+    min-height: 300px;
+  }
+  .bar {
+    min-width: 300px;
+    min-height: 300px;
+  }
+ 
+}
